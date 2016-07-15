@@ -3,6 +3,7 @@
 /**
  * Config
  */
+ console.log(process.env.DB_USERNAME, process.env.DB_PASSWORD);
 module.exports = {
     name: 'GetStream.io - React Example App',
     version: '1.0.0',
